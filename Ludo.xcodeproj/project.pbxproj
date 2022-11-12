@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F987D313291F296A0013CB7C /* LudoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987D312291F296A0013CB7C /* LudoApp.swift */; };
+		F987D315291F296A0013CB7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987D314291F296A0013CB7C /* ContentView.swift */; };
+		F987D317291F296B0013CB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F987D316291F296B0013CB7C /* Assets.xcassets */; };
+		F987D31B291F296B0013CB7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F987D31A291F296B0013CB7C /* Preview Assets.xcassets */; };
+		F987D325291F296B0013CB7C /* LudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987D324291F296B0013CB7C /* LudoTests.swift */; };
+		F987D32F291F296B0013CB7C /* LudoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987D32E291F296B0013CB7C /* LudoUITests.swift */; };
+		F987D331291F296B0013CB7C /* LudoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987D330291F296B0013CB7C /* LudoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F987D321291F296B0013CB7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F987D307291F296A0013CB7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F987D30E291F296A0013CB7C;
+			remoteInfo = Ludo;
+		};
+		F987D32B291F296B0013CB7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F987D307291F296A0013CB7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F987D30E291F296A0013CB7C;
+			remoteInfo = Ludo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F987D30F291F296A0013CB7C /* Ludo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ludo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F987D312291F296A0013CB7C /* LudoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudoApp.swift; sourceTree = "<group>"; };
+		F987D314291F296A0013CB7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F987D316291F296B0013CB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F987D318291F296B0013CB7C /* Ludo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ludo.entitlements; sourceTree = "<group>"; };
+		F987D31A291F296B0013CB7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F987D320291F296B0013CB7C /* LudoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F987D324291F296B0013CB7C /* LudoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudoTests.swift; sourceTree = "<group>"; };
+		F987D32A291F296B0013CB7C /* LudoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F987D32E291F296B0013CB7C /* LudoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudoUITests.swift; sourceTree = "<group>"; };
+		F987D330291F296B0013CB7C /* LudoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F987D30C291F296A0013CB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987D31D291F296B0013CB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987D327291F296B0013CB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F987D306291F296A0013CB7C = {
+			isa = PBXGroup;
+			children = (
+				F987D311291F296A0013CB7C /* Ludo */,
+				F987D323291F296B0013CB7C /* LudoTests */,
+				F987D32D291F296B0013CB7C /* LudoUITests */,
+				F987D310291F296A0013CB7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F987D310291F296A0013CB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F987D30F291F296A0013CB7C /* Ludo.app */,
+				F987D320291F296B0013CB7C /* LudoTests.xctest */,
+				F987D32A291F296B0013CB7C /* LudoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F987D311291F296A0013CB7C /* Ludo */ = {
+			isa = PBXGroup;
+			children = (
+				F987D312291F296A0013CB7C /* LudoApp.swift */,
+				F987D314291F296A0013CB7C /* ContentView.swift */,
+				F987D316291F296B0013CB7C /* Assets.xcassets */,
+				F987D318291F296B0013CB7C /* Ludo.entitlements */,
+				F987D319291F296B0013CB7C /* Preview Content */,
+			);
+			path = Ludo;
+			sourceTree = "<group>";
+		};
+		F987D319291F296B0013CB7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F987D31A291F296B0013CB7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F987D323291F296B0013CB7C /* LudoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F987D324291F296B0013CB7C /* LudoTests.swift */,
+			);
+			path = LudoTests;
+			sourceTree = "<group>";
+		};
+		F987D32D291F296B0013CB7C /* LudoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F987D32E291F296B0013CB7C /* LudoUITests.swift */,
+				F987D330291F296B0013CB7C /* LudoUITestsLaunchTests.swift */,
+			);
+			path = LudoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F987D30E291F296A0013CB7C /* Ludo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F987D334291F296B0013CB7C /* Build configuration list for PBXNativeTarget "Ludo" */;
+			buildPhases = (
+				F987D30B291F296A0013CB7C /* Sources */,
+				F987D30C291F296A0013CB7C /* Frameworks */,
+				F987D30D291F296A0013CB7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ludo;
+			productName = Ludo;
+			productReference = F987D30F291F296A0013CB7C /* Ludo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F987D31F291F296B0013CB7C /* LudoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F987D337291F296B0013CB7C /* Build configuration list for PBXNativeTarget "LudoTests" */;
+			buildPhases = (
+				F987D31C291F296B0013CB7C /* Sources */,
+				F987D31D291F296B0013CB7C /* Frameworks */,
+				F987D31E291F296B0013CB7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F987D322291F296B0013CB7C /* PBXTargetDependency */,
+			);
+			name = LudoTests;
+			productName = LudoTests;
+			productReference = F987D320291F296B0013CB7C /* LudoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F987D329291F296B0013CB7C /* LudoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F987D33A291F296B0013CB7C /* Build configuration list for PBXNativeTarget "LudoUITests" */;
+			buildPhases = (
+				F987D326291F296B0013CB7C /* Sources */,
+				F987D327291F296B0013CB7C /* Frameworks */,
+				F987D328291F296B0013CB7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F987D32C291F296B0013CB7C /* PBXTargetDependency */,
+			);
+			name = LudoUITests;
+			productName = LudoUITests;
+			productReference = F987D32A291F296B0013CB7C /* LudoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F987D307291F296A0013CB7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F987D30E291F296A0013CB7C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F987D31F291F296B0013CB7C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F987D30E291F296A0013CB7C;
+					};
+					F987D329291F296B0013CB7C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F987D30E291F296A0013CB7C;
+					};
+				};
+			};
+			buildConfigurationList = F987D30A291F296A0013CB7C /* Build configuration list for PBXProject "Ludo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F987D306291F296A0013CB7C;
+			productRefGroup = F987D310291F296A0013CB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F987D30E291F296A0013CB7C /* Ludo */,
+				F987D31F291F296B0013CB7C /* LudoTests */,
+				F987D329291F296B0013CB7C /* LudoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F987D30D291F296A0013CB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987D31B291F296B0013CB7C /* Preview Assets.xcassets in Resources */,
+				F987D317291F296B0013CB7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987D31E291F296B0013CB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987D328291F296B0013CB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F987D30B291F296A0013CB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987D315291F296A0013CB7C /* ContentView.swift in Sources */,
+				F987D313291F296A0013CB7C /* LudoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987D31C291F296B0013CB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987D325291F296B0013CB7C /* LudoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987D326291F296B0013CB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987D331291F296B0013CB7C /* LudoUITestsLaunchTests.swift in Sources */,
+				F987D32F291F296B0013CB7C /* LudoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F987D322291F296B0013CB7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F987D30E291F296A0013CB7C /* Ludo */;
+			targetProxy = F987D321291F296B0013CB7C /* PBXContainerItemProxy */;
+		};
+		F987D32C291F296B0013CB7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F987D30E291F296A0013CB7C /* Ludo */;
+			targetProxy = F987D32B291F296B0013CB7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F987D332291F296B0013CB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F987D333291F296B0013CB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F987D335291F296B0013CB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ludo/Ludo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ludo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N543RBN2Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Ludo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F987D336291F296B0013CB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ludo/Ludo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ludo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N543RBN2Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Ludo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F987D338291F296B0013CB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N543RBN2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.LudoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ludo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ludo";
+			};
+			name = Debug;
+		};
+		F987D339291F296B0013CB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N543RBN2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.LudoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ludo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ludo";
+			};
+			name = Release;
+		};
+		F987D33B291F296B0013CB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N543RBN2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.LudoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ludo;
+			};
+			name = Debug;
+		};
+		F987D33C291F296B0013CB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N543RBN2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.LudoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ludo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F987D30A291F296A0013CB7C /* Build configuration list for PBXProject "Ludo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987D332291F296B0013CB7C /* Debug */,
+				F987D333291F296B0013CB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F987D334291F296B0013CB7C /* Build configuration list for PBXNativeTarget "Ludo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987D335291F296B0013CB7C /* Debug */,
+				F987D336291F296B0013CB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F987D337291F296B0013CB7C /* Build configuration list for PBXNativeTarget "LudoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987D338291F296B0013CB7C /* Debug */,
+				F987D339291F296B0013CB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F987D33A291F296B0013CB7C /* Build configuration list for PBXNativeTarget "LudoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987D33B291F296B0013CB7C /* Debug */,
+				F987D33C291F296B0013CB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F987D307291F296A0013CB7C /* Project object */;
+}
